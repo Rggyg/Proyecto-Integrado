@@ -117,6 +117,15 @@ body{
 .infoPanel a:hover{
     text-decoration: underline;
 }
+.index-btn{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--sidebar-color);
+    display: block;
+}
+.index-btn:hover{
+    background-color: var(--button-select-color);
+}
 
 /*INFO PANEL**************************************************************************************/
 .infoPanel{
@@ -202,6 +211,15 @@ img{
     width: 100%;
     align-items: center;
     justify-items: center;
+}
+.table-index{
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+.table-index td{
+    text-align: center;
+    width: 25%;
 }
 .table-game{
     background-color: var(--background-darkness-color);

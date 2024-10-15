@@ -57,11 +57,13 @@ body::-webkit-scrollbar-track{
     align-items: center;
 }
 .sidebar header,
-.sidebar .fa-solid{
+.sidebar .fa-solid,
+.sidebar .fa-brands{
     min-width: 65px;
     border-radius: 0 20px 20px 0;
 }
-.sidebar .fa-solid{
+.sidebar .fa-solid,
+.sidebar .fa-brands{
     min-width: 65px;
     border-radius: 0 20px 20px 0;
     height: 100%;
@@ -71,7 +73,8 @@ body::-webkit-scrollbar-track{
     font-size: 20px;
 }
 .sidebar .text,
-.sidebar .fa-solid{
+.sidebar .fa-solid,
+.sidebar .fa-brands{
     color: var(--sidebar-text-color);
 }
 .sidebar .text{
@@ -206,7 +209,7 @@ img{
     height: 510px;
     overflow: auto;
     margin-left: 532px;
-    border-radius: 20px 8px 8px 20px;
+    border-radius: 20px;
     padding: 15px;
     background-color: var(--sidebar-color);
 }
@@ -222,15 +225,15 @@ img{
     border-radius: 8px;
 }
 .img-contact{
-    width: 316px;
+    width: 210px;
     position: absolute;
     margin: 0;
     border-radius: 20px;
 }
 .paragraph.contact div{
-    width: 907px;
-    height: 316px;
-    margin-left: 336px;
+    width: 1013px;
+    height: 210px;
+    margin-left: 232px;
 }
 
 /*TABLES******************************************************************************************/
